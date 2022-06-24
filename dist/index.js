@@ -1,0 +1,13 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const d_1 = require("./d\u00E9");
+const gobelet_1 = require("./gobelet");
+const de = new d_1.De();
+de.lancer();
+console.log(de.get_valeur());
+de.lancer();
+console.log(de.get_valeur());
+const gobelet = new gobelet_1.Gobelet(3);
+gobelet.lancer();
+console.log(gobelet);
+gobelet.afficher_score();
