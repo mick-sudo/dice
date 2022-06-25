@@ -24,7 +24,7 @@ class Gobelet {
         this._des = nDes;
     }
     get_valeur() {
-        this._valeur;
+        return this._valeur;
     }
     lancer() {
         let nouvelV = 0;

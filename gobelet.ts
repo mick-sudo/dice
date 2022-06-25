@@ -31,8 +31,8 @@ export class Gobelet {
   }
 
 
-  get_valeur() {
-    this._valeur
+  get_valeur(): number {
+    return this._valeur
   }
 
   lancer() {
