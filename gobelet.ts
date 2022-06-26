@@ -2,6 +2,7 @@ import { De } from "./dé";
 
 export class Gobelet {
 
+  //attribute
   private _valeur: number;
   private _des: De[] = [];
 
@@ -13,6 +14,7 @@ export class Gobelet {
     }
   }
 
+  //getter/setter
   get valeur(): number {
     return this._valeur
   }
@@ -30,7 +32,7 @@ export class Gobelet {
     this._des = nDes;
   }
 
-
+  //methods
   get_valeur(): number {
     return this._valeur
   }

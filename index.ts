@@ -13,7 +13,7 @@ const gobelet = new Gobelet(2)
 // console.log(gobelet);
 // gobelet.afficher_score();
 let joueur = new Joueur("mick");
-console.log(joueur.get_nom());
+//console.log(joueur.get_nom());
 joueur.jouer(gobelet);
 joueur.afficher_score();
 

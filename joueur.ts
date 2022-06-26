@@ -1,6 +1,7 @@
 import { Gobelet } from "./gobelet";
 
 export class Joueur {
+  //attribute
   private _nom: string;
   private _score: number = 0;
 
@@ -9,6 +10,7 @@ export class Joueur {
     this._score = 0;
   }
 
+  //getter/setter
   get nom() {
     return this._nom;
   }
@@ -25,6 +27,7 @@ export class Joueur {
     this._score = score
   }
 
+  //methods
   get_nom(): string {
     return this._nom
   }
